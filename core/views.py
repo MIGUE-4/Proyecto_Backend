@@ -6,8 +6,6 @@ class home_view(View):
         
         context = {
 
-
-
         }
 
         return render(request,'index.html',context)
